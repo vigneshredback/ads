@@ -6,7 +6,13 @@ module.exports = {
     './**/templates/**/*.{html,js}'  // Also check for any templates folder in subdirectories
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'primary':'red',
+        'secondary':'#ff5555',
+        'x':'#786666'
+      }
+    },
   },
   plugins: [],
 }
